@@ -1,5 +1,5 @@
 // Java code for selection sort
-// selects a minimum from unsorted portion of the array and swaps it with element at current position. repeats until given array is sorted
+// Selects a minimum from unsorted portion of the array and swaps it with element at current position. Repeats until given array is sorted
 // worst, avg & best case time complexity is O(n^2)
 
 import java.util.Scanner;
