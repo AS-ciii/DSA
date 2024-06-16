@@ -1,4 +1,4 @@
-// java code to return an array eliminating all its duplicate elements
+// java code to eliminate all duplicate elements of an array
 
 package Arrays;
 import java.util.HashSet;
