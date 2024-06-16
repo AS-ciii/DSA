@@ -1,5 +1,5 @@
 // Java code for insertion sort
-// Insertion sort builds a sorted portion of the list one element at a time by repeatedly picking the next element and inserting it into its correct position
+// Insertion sort builds a sorted portion of the list, one element at a time by repeatedly picking the next element and inserting it into its correct position
 // worst & avg case time complexity is O(n^2)
 // best case time complexity is O(n) if the list is already sorted 
 
@@ -32,7 +32,7 @@ public class InsertionSort {
         InsertionSort obj = new InsertionSort();
         obj.InsertionSortFunction(numbers);
         
-        System.out.println("After applying bubble sort");
+        System.out.println("After applying insertion sort:");
         for(int i=0; i<length; i++) 
             System.out.println(numbers[i]);
 
