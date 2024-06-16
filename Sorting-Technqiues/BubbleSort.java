@@ -35,7 +35,7 @@ public class BubbleSort {
         BubbleSort obj = new BubbleSort();
         obj.BubbleSortFunction(numbers);
         
-        System.out.println("After applying bubble sort");
+        System.out.println("After applying bubble sort:");
         for(int i=0; i<length; i++) 
             System.out.println(numbers[i]);
 
