@@ -1,3 +1,5 @@
+package Arrays;
+
 class Solution {
     void nextPermutation(int[] arr) {
         int breakPoint = -1;
