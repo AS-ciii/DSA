@@ -1,4 +1,4 @@
-package Arrays
+package Arrays;
 
 class Solution {
     public int maximumProfit(int prices[]) {
