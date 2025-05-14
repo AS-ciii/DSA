@@ -20,6 +20,8 @@ This repository contains my solutions to various problems from **GeeksforGeeks**
   - Strings
   - Tree
   - Two Pointer Technique
+  - Graph
+  - Greedy
 
 - **Optimized Solutions**: Each solution is written with the aim of efficiency, keeping time complexity in mind. 💨
 
