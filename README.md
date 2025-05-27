@@ -22,6 +22,9 @@ This repository contains my solutions to various problems from **GeeksforGeeks**
   - Two Pointer Technique
   - Graph
   - Greedy
+  - Trie
+  - Bit Manipulation
+  
 
 - **Optimized Solutions**: Each solution is written with the aim of efficiency, keeping time complexity in mind. 💨
 
