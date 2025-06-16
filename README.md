@@ -2,8 +2,7 @@
 
 
 Welcome to my **Data Structures and Algorithms (DSA)** solutions repository! 🎉  
-This repository contains my solutions to various problems from **GeeksforGeeks**. It is organized to help anyone looking to understand DSA concepts with clear, step-by-step explanations.
-
+This repository contains my solutions to various problems from **GeeksforGeeks**. 
 ---
 
 ## Features ✨
@@ -24,13 +23,10 @@ This repository contains my solutions to various problems from **GeeksforGeeks**
   - Greedy
   - Trie
   - Bit Manipulation
-  
+  - DP
+  - Stack
+  - Heap
 
-- **Optimized Solutions**: Each solution is written with the aim of efficiency, keeping time complexity in mind. 💨
-
-- **Code Walkthroughs**: Each solution includes a brief explanation and step-by-step breakdown of the approach used. 📑
-
-- **Problem-Solving Approach**: If you're looking to improve your problem-solving skills, this repo will guide you through the process.
 
 ---
 
