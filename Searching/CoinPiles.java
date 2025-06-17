@@ -1,6 +1,5 @@
 class Solution {
     public int minimumCoins(int[] arr, int k) {
-        // code here
         int n=arr.length;
         Arrays.sort(arr);
         int[] subset = new int[n];
