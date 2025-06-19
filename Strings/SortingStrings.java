@@ -1,6 +1,5 @@
 class Solution {
     public static String caseSort(String s) {
-        // code here
         int n=s.length();
         ArrayList<Character>u=new ArrayList<>();
         ArrayList<Character>l=new ArrayList<>();
