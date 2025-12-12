@@ -1,17 +1,18 @@
 class Solution {
-  public:
-    vector<vector<int> > transpose(vector<vector<int> >& mat) {
+    public ArrayList<ArrayList<Integer>> transpose(int[][] mat) {
         // code here
-        int n = mat.size();
-        
-        for (int i = 0; i < n; i++)
-        {
-            for (int j = 0; j < i; j++)
-            {
-                swap(mat[i][j], mat[j][i]);
+        int rows=mat.length;
+        int col=mat[0].length;
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+        for(int i=0;i<col;i++){
+            ArrayList<Integer> temp = new ArrayList<>();
+            for(int j=0;j<rows;j++){
+                temp.add(mat[j][i]); 
             }
+            list.add(temp);
+            
         }
-        
-        return mat;
+        return list;
+         
     }
-};
+}
