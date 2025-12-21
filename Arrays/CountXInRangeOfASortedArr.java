@@ -1,7 +1,3 @@
-
-Rakesh Mehta
-53 minutes agoDec 21, 2025 22:24 (GMT +5:30)
-
 class Solution {
     public ArrayList<Integer> countXInRange(int[] arr, int[][] queries) {
         // code here
