@@ -1,5 +1,4 @@
 class Solution {
-    
     public int lowerBound(int[] arr , int a){
         int left = 0;
         int right = arr.length - 1;
