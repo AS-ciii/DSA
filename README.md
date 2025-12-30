@@ -7,7 +7,7 @@ This repository contains my solutions to various problems from **GeeksforGeeks**
 
 ## Features ✨
 
-- **DSA Problems**: Solved problems from GeeksforGeeks in various categories like:
+- **DSA Problems**: Solved 300+ problems from GeeksforGeeks in various categories like:
   - Arrays 
   - Hashing
   - Linked List
