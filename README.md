@@ -26,7 +26,7 @@ This repository contains my solutions to various problems from **GeeksforGeeks**
   - DP
   - Stack
   - Heap
-
+  - Number Theory
 
 ---
 
