@@ -34,4 +34,5 @@ This repository contains my solutions to various problems from **GeeksforGeeks**
 
 - **Language**: Java
 - **Platform**: GeeksforGeeks
+- **Questions**: POTD
 ---
