@@ -1,4 +1,4 @@
-# DSA GFG Solutions Repository 
+# GFG Solutions Repository 
 
 
 Welcome to my **Data Structures and Algorithms (DSA)** solutions repository! 
