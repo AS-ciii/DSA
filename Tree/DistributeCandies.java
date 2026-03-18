@@ -28,7 +28,6 @@ class Solution {
     }
     
     public int distCandy(Node root) {
-        // code here
         dfs(root);
         return count;
     }
