@@ -1,26 +1,68 @@
-package Strings;
-
 class Solution {
-    public int myAtoi(String s) {
-        long integer = 0;
-        int n = s.length();
-        int sign = 1; //positive default
-        int i = 0;
+    public int myAtoi(String in) {
+        // code here
+        String s= in.replaceAll(" ","");
         
-        while(i<n && s.charAt(i)==' ') i++;
+        int n=s.length();
         
-        if(i<n && (s.charAt(i)=='+' || s.charAt(i)=='-')) {
-            sign = s.charAt(i)=='-'?-1:1;
-            i++;
+        if(n==0)
+        return 0;
+        
+        if(n==1&&(s.charAt(0)=='-'||s.charAt(0)=='+'))
+        return 0;
+        
+        int maxMin=-2147483648;
+        int maxMax= 2147483647;
+        long ans=0;
+        if(s.charAt(0)=='-')
+        {
+           for(int i=1;i<n;i++)
+           {
+               int c=s.charAt(i)-'0';
+               if((c<0||c>9))
+               return (int)ans*-1;
+               
+               ans=ans*10+(s.charAt(i)-'0');
+               
+               if(ans>maxMax)
+               return maxMin;
+           }
+           ans=ans*-1;
+           
+           return (int) ans;
         }
-        
-        while(i<n && Character.isDigit(s.charAt(i))) {
-            integer = integer*10+(s.charAt(i)-'0');
-            if(sign*integer >= Integer.MAX_VALUE) return Integer.MAX_VALUE;
-            if(sign*integer <= Integer.MIN_VALUE) return Integer.MIN_VALUE;
-            i++;
+        else{
+            if(s.charAt(0)=='+')
+            {
+             for(int i=1;i<n;i++)
+           {
+               
+                int c=s.charAt(i)-'0';
+               if((c<0||c>9))
+               return (int)ans;
+  ans=ans*10+(s.charAt(i)-'0');               
+               if(ans>=maxMax)
+               return maxMax;
+           }
+           
+           return (int)ans;
+            }
+            else{
+               for(int i=0;i<n;i++)
+           {
+               
+                int c=s.charAt(i)-'0';
+               if((c<0||c>9))
+               return (int)ans;
+  ans=ans*10+(s.charAt(i)-'0');               
+               if(ans>=maxMax)
+               return maxMax;
+           }
+           
+           return (int)ans;   
+            }
         }
-        
-        return (int)(sign*integer);
+  
     }
 }
+
