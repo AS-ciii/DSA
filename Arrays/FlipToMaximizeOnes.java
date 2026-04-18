@@ -1,6 +1,5 @@
 class Solution {
     int maxOnes(int[] arr) {
-        // code here
         int totalOnes=0,curr=0,maxGain=0;
        for(int x : arr) {
            if(x==1) totalOnes++;
