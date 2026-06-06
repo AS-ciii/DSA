@@ -1,4 +1,4 @@
-# GFG Solutions Repository 
+# GFG Solutions 
 
 
 Welcome to my Data Structures and Algorithms solutions repository! 
