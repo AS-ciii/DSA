@@ -1,4 +1,5 @@
- public ArrayList<Integer> optimalArray(int[] arr) {
+class Solution {
+     public ArrayList<Integer> optimalArray(int[] arr) {
         // code here
         int n = arr.length;
         long[] prefix = new long[n];
