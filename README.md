@@ -1,7 +1,7 @@
 # GFG Solutions 
 
 
-Welcome to my Data Structures and Algorithms solutions repository! 
+Welcome to my DSA solutions repository! 
 This repository contains my solutions to various problems from **GeeksforGeeks**. 
 ---
 
