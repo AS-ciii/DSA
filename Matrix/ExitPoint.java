@@ -3,7 +3,6 @@ class Solution {
          int n = mat.length;
         int m = mat[0].length;
 
-        // Directions: 0 = right, 1 = down, 2 = left, 3 = up
         int dir = 0;
         int i = 0, j = 0;
 
